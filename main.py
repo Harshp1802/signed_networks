@@ -9,3 +9,5 @@ G = nx.parse_edgelist(Data, delimiter=',', create_using=Graphtype, nodetype=int,
 weights = nx.get_edge_attributes(G,"Weight")
 print(nx.info(G))
 
+
+
