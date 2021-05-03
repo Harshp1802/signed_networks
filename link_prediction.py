@@ -35,4 +35,4 @@ print(nx.info(G))
 #     dic[edge] = fairness[edge[0]]*goodness[edge[1]]
 # nx.set_edge_attributes(G,dic,"Weight")
 
-nx.write_graphml(G, "updated_graph.graphml", encoding='utf-8', prettyprint=True)
+# nx.write_graphml(G, "updated_graph.graphml", encoding='utf-8', prettyprint=True)
