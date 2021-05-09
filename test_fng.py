@@ -16,7 +16,7 @@ print(df.head())
 df = df.sort_values(by = "Timestamp")
 
 df.Weight /= 10
-split = int(0.6*len(df))
+split = int(0.9*len(df))
 train = df.iloc[:split,:]
 test = df.iloc[split:,:]
 
@@ -54,7 +54,7 @@ weights = nx.get_edge_attributes(H,"Weight")
 avg = 0.0
 count = 0
 for edge in H.edges:
-    if(G.has_node(edge[0]) and G.has_node(edge[1]) and (not G.has_edge(edge[0],edge[1]))):
+    if(G.has_node(edge[0]) and G.has_node(edge[1]) ): #and (not G.has_edge(edge[0],edge[1]))
         count+=1
         avg+= abs(fairness[edge[0]]*goodness[edge[1]] - weights[edge])
 print("Avg Error in Weight Prediction:", avg/count)

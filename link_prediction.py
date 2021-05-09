@@ -27,6 +27,9 @@ for edge in G.edges:
 print("Avg Error in Weight Prediction:", avg/len(G.edges))
 
 print(nx.info(G))
+
+# Storing the Network takes too much time! Better to use the F & G values directly to compute edge weight every time!
+
 # G.add_edges_from(list(nx.non_edges(G)))
 # dic = {}
 # fairness = nx.get_node_attributes(G,"fairness")
