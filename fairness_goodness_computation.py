@@ -1,3 +1,5 @@
+## Reference: https://cs.stanford.edu/~srijan/wsn/
+
 '''
 Code for the paper:
 Edge Weight Prediction in Weighted Signed Networks. 
