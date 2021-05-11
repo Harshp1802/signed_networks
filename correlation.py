@@ -1,7 +1,7 @@
 import networkx as nx
 import random
 
-# MOdification of the disagreement-minimizing correlation clustering algorithm by Bansal, Blum and Chawla [1].
+# Modification of the disagreement-minimizing correlation clustering algorithm by Bansal, Blum and Chawla [1].
 # Reference: [1] Bansal, Nikhil, Avrim Blum, and Shuchi Chawla.“Correlation Clustering.” Machine Learning 56, no. 1–3 (2004): 89–113.
 # Github Repo: {https://github.com/filkry/py-correlation-clustering}
 
